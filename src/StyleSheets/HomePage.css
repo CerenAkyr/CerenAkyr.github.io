@@ -1,0 +1,118 @@
+.container {
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+            to right,
+            #734B5E 0%,
+            #734B5E 60%,
+            #EBE3D5 60%,
+            #EBE3D5 100%
+    );
+}
+
+.left {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 10%;
+}
+
+.textContainer {
+    width: 71.5%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.arrowImg {
+    width: 15%;
+    margin-top: 12.4rem;
+    height: 14rem;
+}
+
+.textBoxHome {
+    width: 75%;
+    margin-right: 10%;
+    margin-top: 2.4rem;
+    padding-left: 0.4rem;
+}
+
+.textBoxHome h1 {
+    font-family: Merriweather, serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #EBE3D5;
+}
+
+.textBoxHome h2 {
+    color: #E5A9A9;
+    font-family: Merriweather, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 0.3rem;
+}
+
+.textBoxHome p {
+    color: #EBE3D5;
+    font-family: Merriweather, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15rem;
+}
+
+.profileImg {
+    width: 28.5%;
+}
+@media (max-width: 1188px) {
+    .textBox h1 {
+        font-size: 2.2rem;
+        margin-top: 3rem;
+    }
+    .textBox p {
+        font-size: 1.4rem;
+    }
+    .profileImg {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 750px) {
+    .left {
+        width: 75%;
+    }
+
+    .textBox {
+        margin-right: 5%;
+    }
+
+    .profileImg {
+        width: 40%;
+        margin-top: 10rem;
+    }
+
+    .textBox h1 {
+        margin-top: 4rem;
+    }
+
+    .arrowImg {
+        margin-top: 14rem;
+    }
+
+    .textBox p {
+        font-size: 1.1rem;
+        margin-top: 5.2rem;
+    }
+}
+
+
+
+

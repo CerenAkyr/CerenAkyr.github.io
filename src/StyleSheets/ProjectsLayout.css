@@ -1,0 +1,19 @@
+.allProjectsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.selectProjectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 30%;
+}
+
+.displayProjectsContainer {
+    width: 65%;
+    margin-left: 3%;
+}

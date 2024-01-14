@@ -1,0 +1,31 @@
+.projectsLogoContainer {
+    border-radius: 12px;
+    background: #734B5E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    height: 80px;
+}
+
+.projectsLogoImg {
+    height: 58px;
+    padding: 0 12px;
+}
+
+.imgLimit {
+    max-width: 35%;
+    width: 35%;
+    margin-right: 10px;
+}
+
+.projectsLogoContainer p {
+    color: #FFF;
+    font-family: Merriweather, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

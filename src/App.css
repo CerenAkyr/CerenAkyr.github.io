@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+    background-color: rgb(236, 236, 236);
+}
+
+.wrapper {
+    background-color: #F5F3F5;
+    width: 96%;
+    margin: 0 auto 50px;
+    max-width: 140rem;
+    box-shadow: 1.2rem 1.2rem 2.4rem rgba(0, 0, 0, 0.2);
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.kranky {
+    font-family: 'Kranky', cursive;
+}
+

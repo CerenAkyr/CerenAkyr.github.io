@@ -1,0 +1,206 @@
+.project {
+    position: relative;
+}
+
+.projectPage1 {
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+            to right,
+            #B0A695 0%,
+            #B0A695 60%,
+            #F5F3F5 60%,
+            #F5F3F5 100%
+    );
+}
+
+.projectPage2 {
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: #F5F3F5;
+}
+
+.projectPage3 {
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: #EBE3D5;
+}
+
+.project h1 {
+    color: #000;
+    font-family: Merriweather, sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.aiProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.gameBox {
+    margin-left: 0;
+}
+
+.overlayCapsule {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    z-index: 1;
+}
+
+.capsuleBox {
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.hrToolContainer {
+    width: 100%;
+    background-color: #F5F3F5;
+}
+
+.hrToolBox {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+.hrTextBox {
+    border-radius: 12px;
+    background: #B0A695;
+    width: 400px;
+    flex-shrink: 0;
+    padding: 80px 40px 60px 40px;
+    margin-right: 100px;
+    margin-top: 40px;
+    height: 400px
+}
+
+/** ================== TYPOGRAPHY ================== **/
+
+.hrTextBox h2 {
+    color: #FFF;
+    font-family: Merriweather, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hrTextBox p {
+    color: #FFF;
+    font-family: Merriweather, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hrTextBox a {
+    color: #FFF;
+    font-family: Merriweather, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.capsuleBoxP1 {
+    color: #000;
+    font-family: Merriweather, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.capsuleBoxP2 {
+    color: #000;
+    font-family: Merriweather, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.overlayCapsule img {
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.overlayCapsule a {
+    color: #000;
+    font-family: Merriweather, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.gameBox img {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.textBox h1 {
+    color: #FFF;
+    font-family: Merriweather, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.textBox p {
+    color: #FFF;
+    font-family: Merriweather, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0 0 8px 0;
+}
+
+.textBox a {
+    color: #FFF;
+    font-family: Merriweather, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.hrToolBox img {
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 12px;
+}
