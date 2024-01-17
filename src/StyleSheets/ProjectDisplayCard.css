@@ -1,0 +1,42 @@
+.displayCardContainer {
+    width: 80%;
+    position: relative;
+}
+
+.displayCardContainer img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.displayCardText {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.displayCardText:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.displayCardText h3 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.displayCardText p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

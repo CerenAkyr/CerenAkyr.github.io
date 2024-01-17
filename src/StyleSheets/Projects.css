@@ -1,0 +1,15 @@
+.projects {
+    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.projectsHolder {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
