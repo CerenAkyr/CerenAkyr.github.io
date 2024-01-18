@@ -13,3 +13,11 @@
     padding-top: 5rem;
     justify-content: space-between;
 }
+
+.projects h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 80px 0 50px 50px;
+    text-align: left;
+    font-family: Karla, sans-serif;
+}

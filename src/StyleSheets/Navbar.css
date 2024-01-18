@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 2;
 }
@@ -43,11 +43,17 @@ nav {
     color: var(--red);
 }
 
-.navTitle h1 {
+
+.navTitle a {
+    text-decoration: none;
     color: black;
     font-family: Karla, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    transition: 0.3s;
+}
+.navTitle a:hover {
+    color: var(--red);
 }

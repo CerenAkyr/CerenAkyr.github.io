@@ -1,5 +1,5 @@
 import '../StyleSheets/ProjectDisplayCard.css'
-import capsule from '../assets/2048gif.gif'
+import capsule from '../assets/datascope.gif'
 
 const ProjectDisplayCard = (props) => {
 

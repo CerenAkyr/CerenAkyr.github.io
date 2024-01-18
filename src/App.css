@@ -8,6 +8,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .app {
     background-color: rgb(236, 236, 236);

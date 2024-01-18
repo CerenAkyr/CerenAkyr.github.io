@@ -1,17 +1,18 @@
 import '../StyleSheets/HomePage.css'
-import linkedin from '../assets/linkedin.webp';
-import mail from '../assets/mail.webp';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
 import insta from '../assets/instagram.png';
+import cv from '../assets/pdf/ceren-akyar-cv.pdf';
 
-const HomePage = (props) => {
+const HomePage = () => {
     return (
-        <div className="homeContainer">
+        <div className="homeContainer" id="home">
             <div className="socialContainer">
                 <div className="smallLine"></div>
                 <div className="social-icons">
-                    <img src={linkedin} alt=""/>
-                    <img src={mail} alt=""/>
-                    <img src={insta} alt=""/>
+                    <a href="https://www.linkedin.com/in/ceren-akyar/"><img src={linkedin} alt="" /></a>
+                    <a href="https://github.com/CerenAkyr"><img src={github} alt=""/></a>
+                    <a href="https://www.instagram.com/ceren_akyr/"><img src={insta} alt=""/></a>
                 </div>
                 <div className="longLine"></div>
             </div>
@@ -20,7 +21,7 @@ const HomePage = (props) => {
                     <h1 className="homePageTextContentTitle1">SENIOR <br/>
                     <span className="homePageTextContentTitle2">COMPUTER SCIENCE</span> <br/>
                     STUDENT.</h1>
-                    <button className="homePageButton">My Resume</button>
+                    <a href={cv} download="ceren-akyar-cv.pdf" className="homePageButton">MY RESUME</a>
                 </div>
             </div>
         </div>

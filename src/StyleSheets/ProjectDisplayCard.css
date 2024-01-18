@@ -1,12 +1,14 @@
 .displayCardContainer {
-    width: 80%;
+    width: 90%;
     position: relative;
+    margin: 0 auto;
 }
 
 .displayCardContainer img {
     width: 100%;
     display: block;
     margin: auto;
+    border-radius: 12px;
 }
 
 .displayCardText {
@@ -22,6 +24,7 @@
     flex-direction: column;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    border-radius: 12px;
 }
 
 .displayCardText:hover {
@@ -31,12 +34,14 @@
 
 .displayCardText h3 {
     color: white;
-    font-size: 2rem;
+    font-size: 24px;
     margin-bottom: 1rem;
+    font-family: Karla, sans-serif;
 }
 
 .displayCardText p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 16px;
     margin-bottom: 1rem;
+    font-family: Karla, sans-serif;
 }
