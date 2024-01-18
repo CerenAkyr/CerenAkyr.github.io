@@ -5,7 +5,7 @@ const ProjectsLogo = (props) => {
         <div className="imgLimit">
             <img src={props.link} alt="" className="projectsLogoImg"/>
         </div>
-        <p>Projects</p>
+        <p>{props.title}</p>
     </div>
   );
 }

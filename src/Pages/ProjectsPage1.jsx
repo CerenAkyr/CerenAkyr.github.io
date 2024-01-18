@@ -6,7 +6,6 @@ function ProjectsPage1() {
     return (
         <div className="project">
             <div className="projectPage1">
-                <h1><span className="kranky">Recent Projects</span></h1>
                 <div className="aiProject">
                     <div className="textBox">
                         <h1>2048 & AI Algorithms</h1>

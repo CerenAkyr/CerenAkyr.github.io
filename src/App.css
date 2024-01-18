@@ -1,3 +1,8 @@
+:root {
+    --gray--linear: linear-gradient(to top, #caced7 0%, #eef1f5 100%);;
+    --red: #BD1616;
+}
+
 * {
     margin: 0;
   padding: 0;
@@ -23,5 +28,9 @@
 
 .kranky {
     font-family: 'Kranky', cursive;
+}
+
+.red {
+    color: var(--red);
 }
 

@@ -1,6 +1,5 @@
 nav {
     width: 100%;
-    background-color: rgba(115, 75, 94, 0.1);
     position: absolute;
     top: 0;
     z-index: 2;
@@ -29,21 +28,26 @@ nav {
 }
 
 .navLinks a {
-    color: #734B5E;
-    font-family: Merriweather, sans-serif;
+    color: black;
+    font-family: Karla, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
     padding: 0 20px;
+    transition: 0.3s;
+}
+
+.navLinks a:hover {
+    color: var(--red);
 }
 
 .navTitle h1 {
-    color: #EBE3D5;
-    font-family: Merriweather, sans-serif;
-    font-size: 28px;
+    color: black;
+    font-family: Karla, sans-serif;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     line-height: normal;
 }

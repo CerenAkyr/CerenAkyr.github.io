@@ -1,23 +1,28 @@
-import '../StyleSheets/HomePage.css';
-import ceren from '../assets/ceren.svg';
-import arrow from '../assets/arrow.svg';
+import '../StyleSheets/HomePage.css'
+import linkedin from '../assets/linkedin.webp';
+import mail from '../assets/mail.webp';
+import insta from '../assets/instagram.png';
 
-const HomePage = () => {
+const HomePage = (props) => {
     return (
-        <div className="container">
-            <div className="left">
-                <div className="textContainer">
-                    <img src={arrow} alt="" className="arrowImg"/>
-                    <div className="textBoxHome">
-                        <h1>Senior Computer <br/>
-                        Science Student.</h1>
-                        <h2>and more...</h2>
-                        <p>Discover more about me by my works and my journey</p>
-                    </div>
+        <div className="homeContainer">
+            <div className="socialContainer">
+                <div className="smallLine"></div>
+                <div className="social-icons">
+                    <img src={linkedin} alt=""/>
+                    <img src={mail} alt=""/>
+                    <img src={insta} alt=""/>
                 </div>
-                <img src={ceren} alt="" className="profileImg"/>
+                <div className="longLine"></div>
             </div>
-
+            <div className="homePageContent">
+                <div className="homePageTextContent">
+                    <h1 className="homePageTextContentTitle1">SENIOR <br/>
+                    <span className="homePageTextContentTitle2">COMPUTER SCIENCE</span> <br/>
+                    STUDENT.</h1>
+                    <button className="homePageButton">My Resume</button>
+                </div>
+            </div>
         </div>
     );
 }

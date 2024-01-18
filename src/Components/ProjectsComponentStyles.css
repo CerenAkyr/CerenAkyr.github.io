@@ -7,17 +7,46 @@
     align-content: center;
     justify-content: flex-start;
     height: 80px;
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1);
+}
+
+.flowerTitleHolder {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: auto;
+    width: fit-content;
+}
+
+.projectsLogoContainer:hover {
+    cursor: pointer;
+}
+
+.flowerTitleHolder h1 {
+    color: #000;
+    font-family: Merriweather, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.flowerTitleHolder img {
+    width: 128px;
+    padding: 20px;
 }
 
 .projectsLogoImg {
     height: 58px;
-    padding: 0 12px;
+    margin: 0 20px 0 10px;
 }
 
 .imgLimit {
-    max-width: 35%;
-    width: 35%;
-    margin-right: 10px;
+    max-width: 50%;
+    width: fit-content;
 }
 
 .projectsLogoContainer p {
