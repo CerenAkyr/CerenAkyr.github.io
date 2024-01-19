@@ -1,0 +1,27 @@
+footer {
+    background-color: #D1D6DE;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    font-family: Karla, sans-serif;
+    font-size: 18px;
+}
+
+footer p {
+    padding: 5px;
+}
+
+.footer-link {
+    color: #BD1616;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family: Karla, sans-serif;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #940d0d;
+}

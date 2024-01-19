@@ -4,6 +4,8 @@ import Navbar from "./Pages/Navbar.jsx";
 import ProjectsPage from "./Pages/ProjectsPage.jsx";
 import Projects from "./Pages/Projects.jsx";
 import About from "./Pages/About.jsx";
+import Footer from "./Pages/Footer.jsx";
+import FerrisPage from "./Pages/FerrisPage.jsx";
 
 function App() {
 
@@ -13,7 +15,9 @@ function App() {
         <div className="wrapper">
             <HomePage />
             <Projects />
+            <FerrisPage />
             <About />
+            <Footer />
         </div>
     </div>
   )

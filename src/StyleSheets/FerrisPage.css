@@ -1,0 +1,27 @@
+.ferrisPage {
+    width: 100%;
+    background-image: url("../assets/ferris-wheel.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ferrisContainer {
+    height: fit-content;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.68);
+    border-radius: 18px;
+}
+
+.ferrisContainer h2 {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Karla, sans-serif;
+    color: black;
+    text-align: center;
+}

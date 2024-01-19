@@ -69,3 +69,11 @@
     border-radius: 50%;
     margin-right: 5px;
 }
+
+@media screen and (max-width: 784px) {
+    .tagContainer {
+        max-width: 100%;
+        padding-right: 20px;
+    }
+
+}
