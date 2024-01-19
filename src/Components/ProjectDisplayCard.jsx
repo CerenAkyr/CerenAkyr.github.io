@@ -1,15 +1,17 @@
 import '../StyleSheets/ProjectDisplayCard.css'
-import capsule from '../assets/datascope.gif'
+import {useState} from "react";
+
 
 const ProjectDisplayCard = (props) => {
 
     return (
-        <div className="displayCardContainer">
-            <img src={capsule} alt="Project Display Card"/>
+        <div className="displayCardContainer" >
+            <img src={props.gif} alt="Project Display Card"/>
             <div className="displayCardText">
                 <h3>{props.title}</h3>
-                <p>Project Description</p>
+                <p>{props.description}</p>
             </div>
+
         </div>
     )
 }

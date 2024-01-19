@@ -1,0 +1,71 @@
+.about {
+    background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.aboutBlock {
+    margin-left: 80px;
+}
+
+.aboutBlock h2 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    font-family: Karla, sans-serif;
+}
+
+.aboutBlock p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 20px 5px 20px;
+    text-align: left;
+    font-family: Karla, sans-serif;
+}
+
+.aboutBlock a {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    font-family: Karla, sans-serif;
+    color: #BD1616;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.aboutBlock a:hover {
+    color: #8c0b0b;
+    text-decoration: underline;
+}
+
+.tagContainer {
+    display: flex;
+    flex-wrap: wrap; /* This property allows elements to wrap onto the next line */
+    justify-content: flex-start;
+    padding-left: 20px;
+    max-width: 50%;
+}
+
+.aboutTag {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin: 0 5px 5px 5px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    line-height: 1;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    align-items: center;
+    padding: 5px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
