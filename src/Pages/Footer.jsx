@@ -4,6 +4,7 @@ const Footer = () => {
       <footer>
           <p>CEREN AKYAR'S PORTFOLIO PAGE</p>
           <p>Email: cerenakyar@gmail.com</p>
+          <img src="../../public/logo.svg" style={{width: '10%'}} alt=""/>
           <div className="social-icons">
               <a href="#home" className="footer-link">HOME</a>
               <a href="#projects" className="footer-link">PROJECTS</a>

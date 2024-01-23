@@ -1,4 +1,5 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from "./Pages/HomePage.jsx";
 import Navbar from "./Pages/Navbar.jsx";
 import Projects from "./Pages/Projects.jsx";

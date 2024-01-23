@@ -45,3 +45,51 @@
     margin-bottom: 1rem;
     font-family: Karla, sans-serif;
 }
+
+.modalContainer h1 {
+    color: black;
+    font-size: 40px;
+    padding: 5px;
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+}
+
+.modalContainer p {
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    font-family: Karla, sans-serif;
+    font-weight: 400;
+}
+
+.modalContainer h3 {
+    color: black;
+    font-size: 22px;
+    padding: 5px;
+    font-family: Karla, sans-serif;
+    font-weight: 600;
+}
+
+.modalContainer a {
+    color: black;
+    font-size: 16px;
+    padding: 0 5px;
+    font-family: Karla, sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.tagContainerModal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 784px) {
+    .displayCardText {
+        opacity: 1;
+        cursor: pointer;
+    }
+}

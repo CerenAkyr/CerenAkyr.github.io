@@ -47,7 +47,7 @@ const About = () => {
 
             <div className="aboutBlock">
                 <h2>HOBBIES</h2>
-                <p>□ I really enjoy dancing. Currently, my new favorite is salsa. I take salsa courses for 2 years. </p>
+                <p>□ I really enjoy dancing. Currently, my new favorite is salsa. I have taken salsa courses for two years. </p>
                 <p>□ I also play classical guitar, electric guitar, and violin. </p>
                 <p>□ I am a huge bookworm. I like reading a lot! :) </p>
             </div>

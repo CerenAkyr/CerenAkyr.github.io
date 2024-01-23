@@ -6,7 +6,7 @@ function FerrisPage() {
     return (
         <div className="ferrisPage">
             <div className="ferrisContainer">
-                <h2>PASSIONATE WITH WEB AND MOBILE <br/>
+                <h2>PASSIONATE ABOUT WEB AND MOBILE <br/>
                 <span style={{color: 'red'}}>DEVELOPMENT</span>.</h2>
             </div>
         </div>
