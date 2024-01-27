@@ -1,8 +1,9 @@
 import '../StyleSheets/ProjectDisplayCard.css'
 import '../StyleSheets/About.css'
 import {useState} from "react";
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import github from '../assets/github.png'
+import website from '../assets/websiteicon.png'
 
 const colorArr = [
     "#61DBFB",
@@ -43,13 +44,19 @@ const ProjectDisplayCard = (props) => {
                         ))}
                     </div>
                     {props.website &&
-                        <h3>Website</h3>
+                        <div className="iconHolder">
+                            <img src={website} alt=""/>
+                            <h3 style={{marginTop: '10px'}}>Website</h3>
+                        </div>
                     }
                     {props.website &&
                         <a href={props.website}>{props.website}</a>
                     }
                     {props.github &&
-                    <h3>GitHub</h3>
+                        <div className="iconHolder">
+                            <img src={github} alt=""/>
+                            <h3 style={{marginTop: '10px'}}>GitHub</h3>
+                        </div>
                     }
                     {props.github &&
                         <a href={props.github}>{props.github}</a>

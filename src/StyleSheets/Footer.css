@@ -2,14 +2,14 @@ footer {
     background-color: #D1D6DE;
     color: #000000;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     width: 100%;
     font-family: Karla, sans-serif;
     font-size: 18px;
 }
 
 footer p {
-    padding: 5px;
+    padding-top: 20px;
 }
 
 .footer-link {
@@ -18,10 +18,26 @@ footer p {
     transition: 0.4s;
     font-family: Karla, sans-serif;
     font-size: 14px;
-    padding: 0px;
+    padding: 0 10px;
 }
 
 .footer-link:hover {
     text-decoration: underline;
     color: #940d0d;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.social-icons-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
 }

@@ -30,11 +30,12 @@ const About = () => {
             </div>
             <div className="aboutBlock">
                 <h2>EDUCATION</h2>
-                <p>□ <a href="https://w3.bilkent.edu.tr/bilkent/">İhsan Doğramacı Bilkent University</a> (Sep 2020 - Jun 2024)</p>
+                <p>□ <a href="https://w3.bilkent.edu.tr/bilkent/">İhsan Doğramacı Bilkent University</a> (Sep 2020 - Jun
+                    2024)</p>
                 <p>□ B.S. in Computer Engineering</p>
             </div>
             <div className="aboutBlock">
-                <h2>SKILLS</h2>
+                <h2>TECHNICAL SKILLS</h2>
                 <div className="tagContainer">
                     {languages.map((language) => (
                         <div className="aboutTag" key={language.name}>
@@ -44,10 +45,28 @@ const About = () => {
                     ))}
                 </div>
             </div>
+            <div className="aboutBlock">
+                <h2 style={{paddingBottom: '0'}}>CLUBS</h2>
+                <h3>BILKENT TEA CLUB PRESIDENT</h3>
+                <p>□ Organizing informative events and events with guest speakers </p>
+                <p>□ Arranging sponsorship agreements </p>
+                <p>□ You can check out our fun events by clicking <a
+                    href="https://www.instagram.com/bilkentteaclub/">here</a> :)</p>
 
+                <h3>Ucuncukat Journal Author</h3>
+                <p>□ Writing articles about technology and arts</p>
+                <p>□ Ucuncukat Journal marketing team member </p>
+                <p>□ You can check out more by clicking <a href="https://www.instagram.com/ucuncukatdergi/">here</a></p>
+
+                <h3>Active Member of Operational Research Club</h3>
+                <p>□ Information Technology team member</p>
+                <p>□ Arranging sponsorship agreements </p>
+                <p>□ You can check out more by clicking <a href="https://www.instagram.com/orbilkent/">here</a></p>
+            </div>
             <div className="aboutBlock">
                 <h2>HOBBIES</h2>
-                <p>□ I really enjoy dancing. Currently, my new favorite is salsa. I have taken salsa courses for two years. </p>
+                <p>□ I really enjoy dancing. Currently, my new favorite is salsa. I have taken salsa courses for two
+                    years. </p>
                 <p>□ I also play classical guitar, electric guitar, and violin. </p>
                 <p>□ I am a huge bookworm. I like reading a lot! :) </p>
             </div>

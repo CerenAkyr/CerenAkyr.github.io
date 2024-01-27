@@ -47,3 +47,9 @@ html {
     font-family: Karla, sans-serif;
 }
 
+.redLine {
+    width: 80%;
+    height: 5px;
+    background-color: var(--red);
+}
+

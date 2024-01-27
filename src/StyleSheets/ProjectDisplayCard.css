@@ -78,6 +78,11 @@
     font-weight: 400;
     text-decoration: underline;
     margin: 0;
+    transition: 0.3s;
+}
+
+.modalContainer a:hover {
+    color: var(--red);
 }
 
 .tagContainerModal {
@@ -85,6 +90,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     max-width: 80%;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 784px) {
@@ -92,4 +98,18 @@
         opacity: 1;
         cursor: pointer;
     }
+}
+
+.iconHolder {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20px 0 5px;
+}
+
+.iconHolder img {
+    width: 30px;
+    height: 30px;
 }

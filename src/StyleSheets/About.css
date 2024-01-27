@@ -16,10 +16,18 @@
     font-family: Karla, sans-serif;
 }
 
+.aboutBlock h3 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    font-family: Karla, sans-serif;
+}
+
 .aboutBlock p {
     font-size: 18px;
     font-weight: 400;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 10px 5px 10px;
     text-align: left;
     font-family: Karla, sans-serif;
 }
@@ -44,6 +52,7 @@
     flex-wrap: wrap; /* This property allows elements to wrap onto the next line */
     justify-content: flex-start;
     padding-left: 20px;
+    padding-bottom: 20px;
     max-width: 50%;
 }
 

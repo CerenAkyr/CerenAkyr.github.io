@@ -30,7 +30,7 @@
     background-color: black;
     color: white;
 }
-.projectsFilterTag:target {
+.projectsFilterTagActive {
     background-color: black;
     color: white;
 }
@@ -49,5 +49,8 @@
     .projectsHolder {
         grid-template-columns: repeat(1, 1fr);
         width: 80%;
+    }
+    .projectsFilterHolder {
+        width: 100%;
     }
 }
