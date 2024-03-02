@@ -41,3 +41,14 @@ footer p {
     width: fit-content;
     margin: auto;
 }
+.emailFooter {
+    margin: auto;
+    padding-top: 20px;
+    width: 15%;
+}
+@media screen and (max-width: 784px) {
+    .emailFooter {
+        width:40%;
+    }
+}
+

@@ -3,17 +3,14 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-color: var(--gray--linear);
+    background-image: url("../../public/cerenbg2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     transition: background 0.5s ease;
 }
 
-.homeContainer.image-loaded {
-    background-color: transparent;
-    background-image: url("src/assets/cerenbg2.png");
-}
+/* background-color: var(--gray--linear); */
 
 .socialContainer {
     margin-left: 10%;
@@ -29,7 +26,7 @@
 
 .smallLine {
     width: 2px;
-    height: 20%;
+    height: 30%;
     background-color: black;
 }
 

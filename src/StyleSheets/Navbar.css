@@ -1,9 +1,12 @@
 nav {
     width: 100%;
+    margin: auto;
     position: fixed;
     top: 0;
     z-index: 2;
     background-color: rgba(235,238,243, 1);
+    /* add shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navContainer {

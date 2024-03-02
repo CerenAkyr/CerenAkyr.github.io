@@ -1,28 +1,17 @@
 import '../StyleSheets/HomePage.css'
-import { useEffect, useState } from 'react';
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
-import insta from '../assets/instagram.png';
-import cv from '../assets/pdf/ceren-akyar-cv.pdf';
+import cv from '../assets/pdf/ceren-akyar-no-info.pdf';
 
 const HomePage = () => {
-    const [imageLoaded, setImageLoaded] = useState(false);
 
-    useEffect(() => {
-        const image = new Image();
-        image.src = "src/assets/cerenbg2.png";
-        image.onload = () => {
-            setImageLoaded(true);
-        };
-    }, []);
     return (
-        <div className={`homeContainer ${imageLoaded ? 'image-loaded' : ''}`} id="home">
+        <div className={'homeContainer'} id="home">
             <div className="socialContainer">
                 <div className="smallLine"></div>
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/ceren-akyar/"><img src={linkedin} alt="" /></a>
                     <a href="https://github.com/CerenAkyr"><img src={github} alt=""/></a>
-                    <a href="https://www.instagram.com/ceren_akyr/"><img src={insta} alt=""/></a>
                 </div>
                 <div className="longLine"></div>
             </div>
@@ -34,8 +23,7 @@ const HomePage = () => {
                     <a href={cv} download="ceren-akyar-cv.pdf" className="homePageButton">MY RESUME</a>
                 </div>
             </div>
-        </div>
-    );
+        </div>    );
 }
 
 export default HomePage;

@@ -2,7 +2,7 @@
   "name": "ceren-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cerenakyr.github.io",
+  "homepage": "https://CerenAkyr.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
