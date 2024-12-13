@@ -4,6 +4,19 @@ import {useEffect, useState} from "react";
 
 const projects = [
     {
+        title: "Stock Checker",
+        description: "Suitable with Various Shopping Websites",
+        gif: "../gifs/stockChecker.webp",
+        filter: "BACKEND",
+        id: 0,
+        paragraphs: [
+            "Open source for common use with Turkish descriptions.",
+        ],
+        technologies: ["Python"],
+        website: "",
+        github: "https://github.com/CerenAkyr/ZaraStockChecker",
+    },
+    {
         title: "Capsule",
         description: "Smart Wardrobe",
         gif: "../gifs/capsule.gif",

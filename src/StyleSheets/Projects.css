@@ -54,3 +54,26 @@
         width: 100%;
     }
 }
+.coming-soon-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.coming-soon-text-container {
+    max-width: 400px;
+    padding: 0 40px;
+    margin: auto 0;
+}
+
+.capsule-image {
+    height: 700px;
+    width: auto;
+}
+
+.tarot-image {
+    height: 700px;
+    width: auto;
+    padding: 20px;
+}

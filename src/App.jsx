@@ -6,6 +6,7 @@ import Projects from "./Pages/Projects.jsx";
 import About from "./Pages/About.jsx";
 import Footer from "./Pages/Footer.jsx";
 import FerrisPage from "./Pages/FerrisPage.jsx";
+import ComingSoon from './Pages/ComingSoon.jsx';
 
 function App() {
 
@@ -14,8 +15,8 @@ function App() {
         <Navbar />
         <div className="wrapper">
             <HomePage />
+            <ComingSoon />
             <Projects />
-            <FerrisPage />
             <About />
             <Footer />
         </div>

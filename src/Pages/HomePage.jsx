@@ -17,9 +17,9 @@ const HomePage = () => {
             </div>
             <div className="homePageContent">
                 <div className="homePageTextContent">
-                    <h1 className="homePageTextContentTitle1">SENIOR <br/>
-                    <span className="homePageTextContentTitle2">COMPUTER SCIENCE</span> <br/>
-                    STUDENT.</h1>
+                    <h1 className="homePageTextContentTitle1">MASTER'S STUDENT <br/>
+                    <span className="homePageTextContentTitle2">in DATA SCIENCE</span> <br/>
+                    @RWTH AACHEN</h1>
                     <a href={cv} download="ceren-akyar-cv.pdf" className="homePageButton">MY RESUME</a>
                 </div>
             </div>

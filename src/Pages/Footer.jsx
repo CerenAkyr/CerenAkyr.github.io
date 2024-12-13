@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="social-icons-footer">
               <a href="#home" className="footer-link">HOME</a>
               <a href="#projects" className="footer-link">PROJECTS</a>
-              <a href="#about" className="footer-link">ABOUT</a>
+              <a href="#about" className="footer-link">ABOUT ME</a>
           </div>
           <img src={email} className="emailFooter" alt=""/>
       </footer>

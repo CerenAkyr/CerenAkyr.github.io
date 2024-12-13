@@ -67,7 +67,7 @@
 .homePageTextContentTitle1 {
     font-weight: 800;
     font-family: Karla, sans-serif;
-    font-size: 62px;
+    font-size: 46px;
     color: black;
     text-align: left;
     line-height: 50px;
@@ -76,7 +76,7 @@
 .homePageTextContentTitle2 {
     font-weight: 800;
     font-family: Karla, sans-serif;
-    font-size: 42px;
+    font-size: 40px;
     color: var(--red);
     text-align: center;
     line-height: 50px;

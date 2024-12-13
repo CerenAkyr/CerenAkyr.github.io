@@ -22,7 +22,8 @@ const About = () => {
             <h1 className="primary-title">ABOUT ME.</h1>
             <div className="aboutBlock">
                 <h2>WORK EXPERIENCE</h2>
-                <p>□ Frontend Developer at <a href="https://www.datascope.ai/">DataScope.ai</a> (Nov-Present)</p>
+                <p>□ Frontend Developer at <a href="https://niologic.com/">Niologic </a> (Nov 2024 - Present)</p>
+                <p>□ Frontend Developer at <a href="https://www.datascope.ai/">DataScope.ai</a> (Nov 2023 - Mar 2024)</p>
                 <p>□ Front-end Developer Intern at <a href="https://www.mobileaction.co/">MobileAction</a> (2023)</p>
                 <p>□ Software Developer Intern at <a href="https://www.t2.com.tr/">T2 Software</a> (2023)</p>
                 <p>□ Front-end Developer at <a href="">BrewUpp Company</a> (2023)</p>
@@ -30,9 +31,12 @@ const About = () => {
             </div>
             <div className="aboutBlock">
                 <h2>EDUCATION</h2>
+                <p>□ <a href="https://w3.bilkent.edu.tr/bilkent/">RWTH Aachen University</a> (Oct 2024 - Aug
+                    2026)</p>
+                <p>M.sc. in Data Science</p>
                 <p>□ <a href="https://w3.bilkent.edu.tr/bilkent/">İhsan Doğramacı Bilkent University</a> (Sep 2020 - Jun
                     2024)</p>
-                <p>□ B.S. in Computer Engineering</p>
+                <p>B.S. in Computer Engineering</p>
             </div>
             <div className="aboutBlock">
                 <h2>TECHNICAL SKILLS</h2>
