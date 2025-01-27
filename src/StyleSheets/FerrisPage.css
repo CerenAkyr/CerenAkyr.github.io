@@ -1,8 +1,12 @@
+.initalFerris {
+    width: 100%;
+    background-color: #E4E3DF;
+}
 .ferrisPage {
     width: 100%;
-    background-image: url("../assets/ferris-wheel.jpg");
+    background-image: url("../assets/stockChecker.png");
     height: 100vh;
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -23,17 +27,22 @@
 
 .ferrisContainer {
     height: fit-content;
-    margin: auto;
-    padding: 20px;
+    margin: auto 20px auto 10px;
+    padding: 30px;
     background-color: rgba(255, 255, 255, 0.68);
     border-radius: 18px;
     opacity: 0; /* Initially hide the element */
     animation: fadeIn 1s ease forwards; /* Apply the fadeIn animation */
 }
 
+.ferrisLink {
+    text-decoration: underline;
+    color: black;
+}
+
 .ferrisContainer h2 {
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 600;
     font-family: Karla, sans-serif;
     color: black;
     text-align: center;

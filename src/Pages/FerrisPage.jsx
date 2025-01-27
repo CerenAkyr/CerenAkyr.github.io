@@ -32,10 +32,12 @@ function FerrisPage() {
     }, []);
 
     return (
-        <div className={`ferrisPage ${isVisible ? 'fadeIn' : ''}`} ref={textBoxRef}>
-            <div className="ferrisContainer">
-                <h2>PASSIONATE ABOUT WEB AND MOBILE <br/>
-                    <span style={{color: 'red'}}>DEVELOPMENT</span>.</h2>
+        <div className='initalFerris'>
+            <div className={`ferrisPage ${isVisible ? 'fadeIn' : ''}`} ref={textBoxRef}>
+                <div className="ferrisContainer">
+                    <h2>Check your stocks with my <br/>
+                        <span style={{color: 'red'}}>starstruck</span> repository <a href="https://github.com/CerenAkyr/ZaraStockChecker/tree/v0.1.0" className='ferrisLink'>here</a>.</h2>
+                </div>
             </div>
         </div>
     )

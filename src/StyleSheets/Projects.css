@@ -59,6 +59,7 @@
     flex-direction: row;
     margin: auto;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .coming-soon-text-container {
@@ -70,6 +71,7 @@
 .capsule-image {
     height: 700px;
     width: auto;
+    margin-right: 40px;
 }
 
 .tarot-image {
