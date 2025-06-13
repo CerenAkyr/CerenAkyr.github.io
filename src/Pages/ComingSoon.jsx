@@ -3,16 +3,20 @@ import '../StyleSheets/Projects.css'
 const ComingSoon = () => {
     return(
         <div className="projects">
-            <h1 className="primary-title">COMING SOON.</h1>
+            <h1 className="primary-title">COMING SOON: YOUR VIRTUAL WARDROBE!</h1>
             <div className='coming-soon-container'>
-                <img src="./CapsuleCizikli.png" alt="" className='capsule-image'/>
+                <img src="./wishlist.png" alt="" className='capsule-image'/>
+                <img src="./profile.png" alt="" className='capsule-image'/>
+                <img src="./recs.png" alt="" className='capsule-image'/>
                 <div className='coming-soon-text-container'>
                     <h2>Your Virtual Wardrobe</h2>
-                    <p>Stilist, (formerly known as Capsule) is your virtual wardrobe. Get outfit recommendations for every occasion, track your outfits daily and view your wardrobe usage with our app!</p>
-                    <a style={{marginTop: "0px"}} href={"https://www.stilist.ai/"} className="homePageButton">VISIT WEBSITE</a>
+                    <p>Kombin is your virtual wardrobe. Get outfit recommendations for every occasion, shop fitting to your style and view your wardrobe usage with our app!</p>
+                    <a style={{marginTop: "0px"}} href={"https://forms.gle/aGCuLAhAHkXt2CDq5"} className="homePageButton">JOIN BETA TESTING</a>
                 </div>
             </div>
+            <h1 className="primary-title">COMING SOON: TAROT APP.</h1>
             <div className='coming-soon-container'>
+            
                 <div className='coming-soon-text-container'>
                     <h2>Your Daily Guidance - Tarot Reader</h2>
                     <p>Get daily guidance combined with various reading types!</p>

@@ -234,8 +234,6 @@ const Projects = () => {
     return (
         <div className="projects" id="projects">
             <h1 className="primary-title">PROJECTS.</h1>
-            <FerrisPage />
-            <h1 className="primary-title">& MANY MORE PROJECTS.</h1>
             <div className="projectsFilterHolder">
                 {projectFilters.map((filter) => (
                     <div
