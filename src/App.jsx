@@ -31,8 +31,8 @@ const showcasedProjects = [
     github: 'https://github.com/CerenAkyr/ZaraStockChecker',
     points: [
       'Checks product availability across shopping websites.',
-      'GitHub starstruck open-source project.',
-      'Python-based automation.',
+      'GitHub open-source project with many stars (which makes me proud!)',
+      'Python-based automation, notification to phone when stock is found.',
     ],
   },
   {
@@ -114,13 +114,54 @@ const moreProjects = [
     title: 'PharmVille',
     image: '/gifs/pharmville.PNG',
     type: 'Online pharmacy',
+    github: 'https://github.com/guezey/PharmVille',
     points: ['E-commerce flow', 'Requirements work', 'Frontend development'],
   },
   {
     title: 'RoboCon',
     image: '/gifs/robocon.PNG',
     type: 'Course website',
+    github: 'https://github.com/CerenAkyr/web-design-gra210-project',
     points: ['Visual hierarchy', 'Responsive design', 'Client collaboration'],
+  },
+  {
+    title: 'Arcelik EWS',
+    image: '/gifs/arcelik.jpg',
+    type: 'Data science',
+    points: ['Early warning system', 'Refrigerator malfunction detection', 'Python implementation'],
+  },
+  {
+    title: 'CIFAR-100 Inpainting',
+    image: '/gifs/CIFAR-100.webp',
+    type: 'Deep learning',
+    github: 'https://github.com/CerenAkyr/CIFAR-100-Inpainting',
+    points: ['CNN model design', 'Image inpainting task', 'Python training pipeline'],
+  },
+  {
+    title: 'Dog Breed CNN',
+    image: '/gifs/dogs_sf.png',
+    type: 'Computer vision',
+    points: ['Stanford Dogs Dataset', 'Custom CNN model', '120 breed classification'],
+  },
+  {
+    title: 'Erasmus Manager',
+    image: '/gifs/erasmus.PNG',
+    type: 'Web app',
+    points: ['Application management', 'Bilkent University flow', 'React frontend'],
+  },
+  {
+    title: 'HR Leave Tool',
+    image: '/gifs/hr-tool.PNG',
+    type: 'Full-stack',
+    github: 'https://github.com/CerenAkyr/T2-HR-Tool-For-Leave',
+    points: ['Leave request flow', 'Shared calendar', 'React + Spring Boot'],
+  },
+  {
+    title: 'MNIST Analysis',
+    image: '/gifs/mnist.webp',
+    type: 'Machine learning',
+    github: 'https://github.com/CerenAkyr/MNIST-Dataset-Analysis',
+    points: ['PCA analysis', 'Logistic regression', 'Hyperparameter tuning'],
   },
 ];
 
@@ -152,51 +193,101 @@ const educationItems = [
 const experienceItems = [
   {
     period: 'Nov 2024 - Present',
-    title: 'Frontend Developer',
+    title: 'Front-end Developer, Founding Engineer',
     place: 'Niologic',
     website: 'https://niologic.com/',
+    points: [
+      'Implementing the front-end of the product with a focus on data visualization components using React, TypeScript, and Tailwind CSS.',
+      'On my second year, also started writing backend (Spring Boot).',
+      'Implementing a parser language to analyze and modify datasets.',
+    ],
   },
   {
     period: 'Nov 2023 - Mar 2024',
-    title: 'Frontend Developer',
+    title: 'Front-end Developer, Founding Engineer',
     place: 'DataScope.ai',
     website: 'https://www.agentscope.ai/',
+    points: [
+      'Implemented the front-end of the product using React, TypeScript, and Tailwind CSS.',
+      'Designed the user interface of the landing page and the product.',
+      'Collaborated with a diverse team to address complex UI challenges and optimize user experience.',
+    ],
   },
   {
-    period: '2023',
+    period: 'Aug - Sep 2023',
     title: 'Front-end Developer Intern',
     place: 'MobileAction',
     website: 'https://www.mobileaction.co/',
+    points: [
+      'Implemented the avatar component for MobileAction’s UI library using Vue.js, TypeScript, and CSS.',
+      'Conducted UI library component testing using Vitest.',
+      'Worked closely with a cross-functional team to ensure seamless component integration.',
+    ],
   },
   {
-    period: '2023',
+    period: 'Jul - Jun 2023',
     title: 'Software Developer Intern',
     place: 'T2 Software',
     website: 'https://www.t2.com.tr/',
+    points: [
+      'Implemented an HR tool using React, TypeScript, and Spring Boot.',
+      'Built leave management flows with a streamlined process and collaborative calendar feature.',
+      'Collaborated with team members to address technical challenges and improve system performance.',
+    ],
   },
   {
     period: '2023',
     title: 'Front-end Developer',
     place: 'BrewUpp Company',
+    points: [
+      'Designed and implemented the company landing page.',
+      'Worked as both UI/UX designer and front-end developer.',
+    ],
   },
   {
-    period: '2022',
+    period: 'Jul - Aug 2022',
     title: 'R&D Data Science Intern',
     place: 'Arcelik Global',
     website: 'https://www.arcelik.com.tr/',
+    points: [
+      'Implemented an early warning system for refrigerator malfunctions using Python.',
+      'The project is used by Arcelik Global services to detect malfunctions.',
+    ],
   },
 ];
 
 const technicalSkillGroups = [
   {
     title: 'Frameworks',
-    skills: ['React', 'Vue', 'Spring Boot', 'React Native', 'Flutter'],
+    skills: ['React', 'Vue', 'Spring Boot', 'React Native'],
   },
   {
     title: 'Programming Languages',
-    skills: ['JavaScript', 'Python', 'C++', 'Java', 'HTML', 'CSS', 'TypeScript', 'Swift'],
+    skills: ['JavaScript', 'Python', 'Java', 'HTML', 'CSS', 'TypeScript', 'Swift'],
   },
 ];
+
+const skillProjects = {
+  React: ['Niologic', 'DataScope.ai', 'BrewUpp', 'PharmVille'],
+  Vue: ['MobileAction ActionKit'],
+  'Spring Boot': ['Niologic', 'T2 HR Leave Tool'],
+  'React Native': ['Capsule'],
+  JavaScript: ['DataScope.ai', 'BrewUpp', 'RoboCon'],
+  Python: [
+    'Stock Checker',
+    'Arcelik Early Warning System',
+    'Master Thesis',
+    'Encoder Only Discriminator',
+    'Resource Object Bottleneck Analysis',
+  ],
+  Java: ['Niologic', 'TeamLink', 'University coursework'],
+  HTML: ['RoboCon', '...and many many more older stuff!'],
+  CSS: ['Basically all my frontend projects'],
+  TypeScript: ['Niologic', 'DataScope.ai', 'MobileAction ActionKit', 'T2 HR Leave Tool'],
+  Swift: ['Kombin', 'Tarot Reader'],
+};
+
+const skillColors = ['#f58abc', '#f7a6c9', '#f9c2d8', '#f27aa9', '#ffd6e5', '#d9d9d9'];
 
 const clubItems = [
   {
@@ -259,73 +350,144 @@ function HeaderInfo() {
 }
 
 function ProjectShowcase() {
+  const stockChecker = showcasedProjects[0];
+  const kombin = showcasedProjects[1];
+  const tarot = showcasedProjects[2];
+
   return (
-    <div className="project-columns">
-      {showcasedProjects.map((project) => (
-        <article
-          className={`project-column ${project.titleLines ? 'project-column-offset-title' : ''}`}
-          key={project.title}
-        >
-          <div className="project-column-body">
-            <div className="project-column-header">
-              <h3>
-                {project.titleLines
-                  ? project.titleLines.map((line) => <span key={line}>{line}</span>)
-                  : project.title}
-              </h3>
-              {project.website ? (
-                <a className="project-website-button" href={project.website}>
-                  Visit Website
-                </a>
-              ) : (
-                project.github ? <a
-                  className="project-github-button"
-                  href={project.github}
-                  aria-label={`${project.title} GitHub repository`}
-                >
-                  <img src={githubIcon} alt="" />
-                </a> : null
-              )}
-            </div>
-            <img className="project-inline-image" src={project.image} alt="" />
-            <ul>
-              {project.points.map((point) => (
-                <li key={point}>{point}</li>
-              ))}
-            </ul>
+    <div className="beloved-projects">
+      <article className="beloved-project">
+        <div className="beloved-project-visual">
+          <span className="project-orbit-label">open source</span>
+          <span className="project-orbit-label project-orbit-label-alt">python automation</span>
+          <img className="rotating-pc" src="/gifs/rotating-pc.gif" alt="" />
+        </div>
+
+        <div className="project-column-body beloved-project-body">
+          <div className="project-column-header">
+            <h3>
+              {stockChecker.titleLines
+                ? stockChecker.titleLines.map((line) => <span key={line}>{line}</span>)
+                : stockChecker.title}
+            </h3>
           </div>
-        </article>
-      ))}
+        {stockChecker.github && (
+          <a className="project-code-button" href={stockChecker.github}>
+            <img src={githubIcon} alt="" />
+            View project code
+          </a>
+        )}
+        <div className="featured-project-copy">
+          {stockChecker.points.map((point) => (
+            <p key={point}>{point}</p>
+          ))}
+        </div>
+      </div>
+      </article>
+
+      <article className="beloved-project beloved-project-kombin">
+        <div className="project-column-body beloved-project-body beloved-project-body-left">
+          <div className="project-column-header project-column-header-logo">
+            <h3>{kombin.title}</h3>
+            <img className="project-title-logo" src="/gifs/kombin_logo_elips.png" alt="" />
+          </div>
+          {kombin.website && (
+          <a className="project-code-button" href={kombin.website}>
+            Visit project website
+          </a>
+        )}
+          <div className="featured-project-copy">
+            {kombin.points.map((point) => (
+              <p key={point}>{point}</p>
+            ))}
+          </div>
+        </div>
+
+        <div className="beloved-project-visual beloved-project-phone-visual">
+          <span className="project-orbit-label">coming soon</span>
+          <span className="project-orbit-label project-orbit-label-alt">Virtual Wardrobe</span>
+          <div className="iphone-shot-stack" aria-label="Kombin app screenshots">
+            <img src="/gifs/iphone-feature-02.png" alt="" />
+            <img src="/gifs/iphone-feature-03.png" alt="" />
+          </div>
+        </div>
+      </article>
+
+      <article className="beloved-project beloved-project-tarot">
+        <div className="beloved-project-visual beloved-project-phone-visual beloved-project-tarot-visual">
+          <span className="project-orbit-label">Coming Soon</span>
+          <span className="project-orbit-label project-orbit-label-alt">tarot app</span>
+          <div className="iphone-shot-stack tarot-shot-stack" aria-label="Tarot Reader app screenshots">
+            <img src="/tarot-main-page.png" alt="" />
+            <img src="/tarot-reading-page.png" alt="" />
+          </div>
+        </div>
+
+        <div className="project-column-body beloved-project-body">
+          <div className="project-column-header">
+            <h3>
+              {tarot.titleLines
+                ? tarot.titleLines.map((line) => <span key={line}>{line}</span>)
+                : tarot.title}
+            </h3>
+          </div>
+          <div className="featured-project-copy">
+            {tarot.points.map((point) => (
+              <p key={point}>{point}</p>
+            ))}
+          </div>
+        </div>
+      </article>
     </div>
   );
 }
 
 function AcademicShowcase() {
   return (
-    <div className="project-columns academic-columns">
-      {academicProjects.map((project) => (
-        <article className="project-column academic-card" key={project.title}>
-          <div className="project-column-body">
-            <div className="project-column-header">
-              <h3>{project.title}</h3>
-              {project.github && (
-                <a
-                  className="project-github-button"
-                  href={project.github}
-                  aria-label={`${project.title} GitHub repository`}
-                >
-                  <img src={githubIcon} alt="" />
-                </a>
-              )}
+    <div className="academic-showcase">
+      <div className="project-columns academic-columns">
+        {academicProjects.map((project) => (
+          <article className="project-column academic-card" key={project.title}>
+            <div className="project-column-body">
+              <div className="project-column-header">
+                <h3>{project.title}</h3>
+                {project.github && (
+                  <a
+                    className="project-github-button"
+                    href={project.github}
+                    aria-label={`${project.title} GitHub repository`}
+                  >
+                    <img src={githubIcon} alt="" />
+                  </a>
+                )}
+              </div>
+              <ul>
+                {project.points.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
             </div>
-            <ul>
-              {project.points.map((point) => (
-                <li key={point}>{point}</li>
-              ))}
-            </ul>
-          </div>
-        </article>
-      ))}
+          </article>
+        ))}
+      </div>
+
+      <article className="academic-wide-card">
+        <div className="academic-wide-media">
+          <img src="/celonis-logo.png" alt="" />
+        </div>
+        <div className="academic-wide-copy">
+          <h3>Resource Object Bottleneck Analysis</h3>
+          <p>
+            I signed an NDA, but this was a lab project in collaboration with{' '}
+            <a href="https://www.celonis.com/">Celonis</a> to analyze object-centric research
+            objects.
+          </p>
+          <p>
+            The project focused on process mining questions around resource objects and
+            bottleneck analysis in object-centric event data.
+          </p>
+        </div>
+      </article>
     </div>
   );
 }
@@ -432,7 +594,18 @@ function MoreProjectsCarousel() {
             <img src={project.image} alt="" />
             <div>
               <p>{project.type}</p>
-              <h3>{project.title}</h3>
+              <div className="mini-project-title-row">
+                <h3>{project.title}</h3>
+                {project.offset === 0 && project.github && (
+                  <a
+                    className="mini-project-github-button"
+                    href={project.github}
+                    aria-label={`${project.title} GitHub repository`}
+                  >
+                    <img src={githubIcon} alt="" />
+                  </a>
+                )}
+              </div>
               <ul>
                 {project.points.map((point) => (
                   <li key={point}>{point}</li>
@@ -455,6 +628,9 @@ function MoreProjectsCarousel() {
 }
 
 function AboutSection() {
+  const [selectedSkill, setSelectedSkill] = useState('React');
+  const selectedSkillProjects = skillProjects[selectedSkill] ?? [];
+
   return (
     <section className="content-section about-section" id="about">
       <div className="about-intro">
@@ -478,6 +654,13 @@ function AboutSection() {
                   </a>
                 ) : (
                   <strong>{item.place}</strong>
+                )}
+                {item.points && (
+                  <ul className="experience-points">
+                    {item.points.map((point) => (
+                      <li key={point}>{point}</li>
+                    ))}
+                  </ul>
                 )}
               </div>
             ))}
@@ -517,13 +700,32 @@ function AboutSection() {
               <div className="skills-group" key={group.title}>
                 <h4>{group.title}</h4>
                 <div className="skills-cloud">
-                  {group.skills.map((skill) => (
-                    <span key={skill}>{skill}</span>
+                  {group.skills.map((skill, index) => (
+                    <button
+                      className={`skill-button ${selectedSkill === skill ? 'skill-button-active' : ''}`}
+                      key={skill}
+                      onClick={() => setSelectedSkill(skill)}
+                      style={{ '--skill-color': skillColors[index % skillColors.length] }}
+                      type="button"
+                    >
+                      <span aria-hidden="true" />
+                      {skill}
+                    </button>
                   ))}
                 </div>
               </div>
             ))}
           </div>
+          <div className="skill-projects">
+            <p>Used in</p>
+            <h4>{selectedSkill}</h4>
+            <div>
+              {selectedSkillProjects.map((project) => (
+                <span key={project}>{project}</span>
+              ))}
+            </div>
+          </div>
+          <img className="skills-folder-image" src="/folder.jpeg" alt="" />
         </article>
 
         <article className="about-panel clubs-panel">
@@ -571,9 +773,6 @@ function App() {
     <main className="app-shell">
       <div className="page-frame">
         <nav className="site-nav" aria-label="Main navigation">
-          <a className="nav-brand" href="#home">
-            CA
-          </a>
           <div className="nav-links">
             <a href="#home">Home</a>
             <a href="#projects">Projects</a>
