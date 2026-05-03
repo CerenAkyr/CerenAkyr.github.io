@@ -143,6 +143,12 @@ body {
   min-width: 0;
 }
 
+.header-image picture {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .header-image img {
   width: 100%;
   max-height: calc(100vh - 140px);

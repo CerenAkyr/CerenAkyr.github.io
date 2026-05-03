@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import githubIcon from './assets/github.png';
 import headerImage from './assets/image.png';
+import headerImageWebp from './assets/image.webp';
 import linkedinIcon from './assets/linkedin.png';
 import mailIcon from './assets/mail.png';
 import resumePdf from './assets/pdf/ceren-akyar-no-info.pdf';
@@ -784,7 +785,10 @@ function App() {
         <section className="halftone-bg" id="home">
           <div className="header-page">
             <div className="header-image">
-              <img src={headerImage} alt="" />
+              <picture>
+                <source srcSet={headerImageWebp} type="image/webp" />
+                <img src={headerImage} alt="" />
+              </picture>
             </div>
             <HeaderInfo />
           </div>
